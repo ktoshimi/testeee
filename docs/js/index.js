@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', init);
  
 function init() {
 const width = 800;
-  const height = 600;
+  const height = 600;//幅800px、高さ600pxを設定
   // ここに処理を追加していきます
   const renderer = new THREE.WebGLRenderer(); //WebGLのレンダリングをするためのレンダラーを作成
   renderer.setSize(width, height); //幅800px、高さ600pxを設定
